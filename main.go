@@ -10,7 +10,7 @@ import (
 func main() {
 	models.Personalities = []models.Personality{
 		{ID: 1, Name: "Luan", History: "I'm a developer"},
-		{ID: 2, Name: "John", History: "I'm a QA"},
+		{ID: 2, Name: "Jon", History: "I'm a QA"},
 	}
 	database.DatabaseConnection()
 	fmt.Println("Starting the application...")
